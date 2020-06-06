@@ -9,5 +9,11 @@
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
+  },
+  "mongoAtlas": {
+  "connector": "mongodb",
+  "name": "mongoAtlas",
+  "url": "mongodb+srv://ocbim:28101988@mma.onh98.mongodb.net/apiMMA?retryWrites=true&w=majority",
+  "protocol": "mongodb+srv"
   }
 }

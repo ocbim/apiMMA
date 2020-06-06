@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "mongoDB"
+    "dataSource": "mongoAtlas"
   },
   "AccessToken": {
-    "dataSource": "mongoDB",
+    "dataSource": "mongoAtlas",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongoDB",
+    "dataSource": "mongoAtlas",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongoDB",
+    "dataSource": "mongoAtlas",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongoDB",
+    "dataSource": "mongoAtlas",
     "public": false
   },
   "order": {
-    "dataSource": "mongoDB",
+    "dataSource": "mongoAtlas",
     "public": true
   }
 }
