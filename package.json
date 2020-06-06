@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": ">=6"
+    "node": "8.0.x"
   },
   "scripts": {
     "lint": "eslint .",
@@ -18,6 +18,7 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.2.0",
     "loopback-connector-mongodb": "^4.2.0",
+    "loopback-sdk-angular-cli": "^3.3.1",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0"
   },
